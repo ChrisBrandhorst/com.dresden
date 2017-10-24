@@ -32,7 +32,10 @@
       "capabilities": [
         "onoff",
         "dim",
-        "light_hue"
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
       ],
       "images": {
         "large": "assets/images/large.jpg",
