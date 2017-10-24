@@ -43,8 +43,8 @@
       },
       "zigbee": {
         "manufacturerName": "Dresden",
-        "productId": [ "FLS-PP3" ],
-        "deviceId": 528,
+        "productId": [ "FLS-PP" ],
+        "deviceId": 5,
         "profileId": 49246,
         "learnmode": {
           "instruction": {
