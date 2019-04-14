@@ -1,7 +1,7 @@
 {
   "name": "com.dresden",
-  "version": "1.0.0",
-  "description": "Control your Dresden RGB Controller (ZigBee) devices with Homey!",
+  "version": "2.0.0",
+  "description": "Control your ZigBee Dresden Controller devices with Homey!",
   "main": "app.js",
   "dependencies": {
     "homey-log": "git+https://github.com/athombv/node-homey-log.git",
@@ -14,12 +14,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mruiter/com.dresden.git"
+    "url": "git+https://github.com/ChrisBrandhorst/com.dresden.git"
   },
-  "author": "",
+  "author": {
+    "name": "Chris Brandhorst"
+  },
+  "contributors": {
+    "developers": [{
+      "name": "Marco Ruiter",
+      "email": "mruiter@tuxweb.nl"
+    }]
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mruiter/com.dresden/issues"
+    "url": "https://github.com/ChrisBrandhorst/com.dresden/issues"
   },
-  "homepage": "https://github.com/mruiter/com.dresden#readme"
+  "homepage": "https://github.com/ChrisBrandhorst/com.dresden#readme"
 }

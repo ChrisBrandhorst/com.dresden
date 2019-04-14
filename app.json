@@ -1,24 +1,27 @@
 {
   "id": "com.dresden",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "sdk": 2,
   "compatibility": ">=1.5.4",
   "category": "lights",
   "name": {
-    "en": "Dresden RGB Controller (ZigBee)",
-    "nl": "Dresden RGB Controller (ZigBee)"
+    "en": "Dresden Controller (ZigBee)",
+    "nl": "Dresden Controller (ZigBee)"
+  },
+  "tags": {
+    "en": ["dresden", "zigbee", "led", "rgb", "dual white"],
+    "nl": ["dresden", "zigbee", "led", "rgb", "dual white"]
   },
   "description": {
-    "en": "Control your Dresden RGB Controller (ZigBee) with Homey!",
-    "nl": "Gebruik je Dresden RGB Controller (ZigBee) met Homey!"
+    "en": "Control your Dresden Controllers (ZigBee) with Homey!",
+    "nl": "Gebruik je Dresden Controllers (ZigBee) met Homey!"
   },
   "author": {
-    "name": "Marco Ruiter",
-	"email": "mruiter@tuxweb.nl"
+    "name": "Chris Brandhorst"
   },
   "images": {
-    "large": "assets/images/large.jpg",
-    "small": "assets/images/small.jpg"
+    "large": "assets/images/large.png",
+    "small": "assets/images/small.png"
   },
   "speech": [],
   "drivers": [
