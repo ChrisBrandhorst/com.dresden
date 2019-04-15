@@ -75,9 +75,54 @@
           }
         }
       ]
+    },
+    {
+      "id": "dresden_phoscon_fls-ct",
+      "name": {
+        "en": "Phoscon FLS-CT CW / WW Controller",
+        "nl": "Phoscon FLS-CT CW / WW Controller"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_temperature"
+      ],
+      "images": {
+        "large": "assets/images/large.jpg",
+        "small": "assets/images/small.jpg"
+      },
+      "zigbee": {
+        "manufacturerName": "dresden elektronik",
+        "productId": [ "FLS-CT" ],
+        "deviceId": 544,
+        "profileId": 49246,
+        "learnmode": {
+          "instruction": {
+            "en": "Follow the instructions in the Dresden manual",
+            "nl": "Volg de instructies in uw Dresden handleiding"
+          }
+        }
+      },
+      "settings": [
+        {
+          "id": "transition_time",
+          "type": "number",
+          "label": {
+            "en": "Transition Time",
+            "nl": "Overgangstijd"
+          },
+          "hint": {
+            "en": "This setting determines the time in seconds it takes to dim from one level to another.",
+            "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander."
+          },
+          "value": 1,
+          "attr": {
+            "min": 0,
+            "max": 6553
+          }
+        }
+      ]
     }
-  ],
-  "flow": [],
-  "conditions": [],
-  "actions": []
+  ]
 }
